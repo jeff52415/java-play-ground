@@ -31,7 +31,7 @@ public class Functions {
 
     public static void main(String[] args) {
         // Example usage of the methods
-        int[] numbers = {1, 2, 3, 4, 5};
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int sum = calculateSum(numbers);
         System.out.println("Sum of array: " + sum);
 

@@ -12,9 +12,13 @@ public class NonStatic {
         NonStatic mathOps = new NonStatic();
 
         // Using the instance to call the non-static calculateProduct method
-        int result = mathOps.calculateProduct(4, 5);
+        int a = 23;
+        int b = 76;
+
+
+        int result = mathOps.calculateProduct(a, b);
 
         // Displaying the result
-        System.out.println("The product of 4 and 5 is: " + result);
+        System.out.println("The product of " + a + " and " + b + " is: " + result);
     }
 }
