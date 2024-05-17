@@ -1,5 +1,5 @@
 // File: Garage.java
-package inherit;
+package inheritance;
 
 public class Garage {
     // Main method to demonstrate inheritance and import

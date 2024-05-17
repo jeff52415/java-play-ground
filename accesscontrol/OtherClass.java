@@ -1,3 +1,4 @@
+package accesscontrol;
 // This file defines another class in the same package to test default access
 public class OtherClass {
     

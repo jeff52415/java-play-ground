@@ -1,5 +1,5 @@
 // File: Vehicle.java
-package inherit;
+package inheritance;
 
 public class Vehicle {
     // Common properties for all vehicles

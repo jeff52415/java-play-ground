@@ -1,5 +1,5 @@
 // File: Car.java
-package inherit;
+package inheritance;
 
 // Car class extends Vehicle class
 public class Car extends Vehicle {
