@@ -1,3 +1,5 @@
+package fundamentals;
+
 public class MethodsExample {
     // Method with a return value
     public static int add(int a, int b) {

@@ -1,3 +1,5 @@
+package math;
+
 public class Factorial {
     // Function to calculate factorial using recursion
     static int factorial(int n) {

@@ -7,6 +7,7 @@ This repository is my side project where I document and share Java examples and 
 ## Environment Setup
 Java typically uses build tools and Integrated Development Environments (IDEs) to manage projects and dependencies.
 
+
 ### Recommended Tools
 1. **Java Development Kit (JDK)**
    - Download and install the latest JDK from the [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) or [OpenJDK](https://openjdk.java.net/).
@@ -57,13 +58,16 @@ Java typically uses build tools and Integrated Development Environments (IDEs) t
      ./gradlew test
      ```
 
-### Common Dependencies Included
+## Java Execution Mechanism
 
-- **JUnit**: For writing and running unit tests.
-- **Apache Commons Lang**: Provides helper utilities for the java.lang API.
-- **Gson**: For parsing JSON data.
+- **Compiled Language**: Java source code (`.java` files) must be compiled into bytecode (`.class` files) using the `javac` compiler.
+- **Explicit Compilation**: Requires manual compilation with `javac` followed by execution with `java`.
 
-You can add more dependencies as needed by updating the `build.gradle` file.
+- **Running Java Files**: Compile Java files before running:
+  ```sh
+  javac ClassName.java
+  java ClassName
+  ```
 
 ## Suggested Learning Path
 To make the most of this repository, follow the learning path below. Start with the basics and progress through more advanced topics.

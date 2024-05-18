@@ -1,3 +1,5 @@
+package loops;
+
 public class ForLoopExample {
     public static void main(String[] args) {
         // A basic for loop counting from 0 to 4

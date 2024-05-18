@@ -1,3 +1,5 @@
+package loops;
+
 public class LabeledBreakContinueExample {
     public static void main(String[] args) {
         // Label the outer loop

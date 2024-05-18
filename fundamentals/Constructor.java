@@ -1,3 +1,5 @@
+package fundamentals;
+
 // Define a simple class
 public class Constructor {
     // Properties (fields)

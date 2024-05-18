@@ -1,3 +1,5 @@
+package fundamentals;
+
 // Import the Multiplier class from the load package
 import loading.Multiplier;
 import loading.deep.Calculator;

@@ -1,3 +1,5 @@
+package fundamentals;
+
 // Nonstatic methods are associated with a specific instance of a class and can interact with instance variables that store state unique to that instance.
 // Static methods are associated with the class itself and are not bound to a particular object instance.
 public class NonStatic {

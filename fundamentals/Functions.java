@@ -1,3 +1,5 @@
+package fundamentals;
+
 public class Functions {
     // A method that returns an integer and accepts an array of integers
 

@@ -1,3 +1,5 @@
+package math;
+
 public class MainClass {
     public static void main(String[] args) {
         Helper1 helper1 = new Helper1();

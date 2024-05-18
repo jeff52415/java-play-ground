@@ -1,3 +1,5 @@
+package staticvsnonstatic;
+
 public class StaticVsNonStaticExample {
     
     // Static method

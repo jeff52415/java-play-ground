@@ -1,3 +1,5 @@
+package fundamentals;
+
 public class LoopsExample {
     public static void main(String[] args) {
         // for loop

@@ -1,3 +1,5 @@
+package math;
+
 public class MathModulusExample {
     public static void main(String[] args) {
         int a = 10;

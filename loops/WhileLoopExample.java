@@ -1,3 +1,5 @@
+package loops;
+
 public class WhileLoopExample {
     public static void main(String[] args) {
         int i = 0;

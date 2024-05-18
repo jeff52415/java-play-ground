@@ -1,3 +1,5 @@
+package math;
+
 public class MathClassExamples {
     public static void main(String[] args) {
         double x = 9.0;

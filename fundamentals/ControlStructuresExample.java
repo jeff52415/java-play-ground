@@ -1,3 +1,5 @@
+package fundamentals;
+
 public class ControlStructuresExample {
     public static void main(String[] args) {
         int number = 10;
