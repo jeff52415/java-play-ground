@@ -1,18 +1,29 @@
 // File: Garage.java
 package inheritance;
 
+// Garage.java
 public class Garage {
-    // Main method to demonstrate inheritance and import
-    public static void main(String[] args) {
-        // Create a Vehicle object
-        Vehicle genericVehicle = new Vehicle("Truck", 2015);
+    private Vehicle[] vehicles;
+    private int count;
 
-        System.out.println("Generic Vehicle:");
-        genericVehicle.displayInfo();
+    public Garage(int size) {
+        vehicles = new Vehicle[size];
+        count = 0;
+    }
 
-        // Create a Car object, which is a subclass of Vehicle
-        Car myCar = new Car("Sedan", 2023, 4);
-        System.out.println("\nMy Car:");
-        myCar.displayInfo();
+    public void addVehicle(Vehicle vehicle) {
+        if (count < vehicles.length) {
+            vehicles[count] = vehicle;
+            count++;
+        } else {
+            System.out.println("Garage is full");
+        }
+    }
+
+    public void showVehicles() {
+        for (int i = 0; i < count; i++) {
+            Vehicle vehicle = vehicles[i];
+            System.out.println("Vehicle " + (i + 1) + ": " + vehicle.getBrand() + " (" + vehicle.getYear() + ")");
+        }
     }
 }
