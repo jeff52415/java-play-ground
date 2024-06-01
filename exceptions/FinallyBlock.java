@@ -2,6 +2,7 @@ package exceptions;
 
 public class FinallyBlock {
     public static void main(String[] args) {
+        // finally block always executes, whether an exception is thrown or not
         try {
             int result = divide(10, 2);
             System.out.println("Result: " + result);
